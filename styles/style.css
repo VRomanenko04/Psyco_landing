@@ -1,0 +1,43 @@
+header {
+    height: 100svh;
+    width: 100%;
+    background-image: url(../imgs/bg-1.png);
+    background-size: cover;
+}
+
+.logo {
+    height: 72px;
+    width: 72px;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #000;
+    transform: scale(1.2);
+}
+
+.header__text {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.headtext__marg {
+    margin-top: 30vh;
+}
+
+.social__icons {
+    margin-top: 30vh;
+}
+
+.social__item {
+    height: 48px;
+    width: 48px;
+}
+
+.social__item:hover {
+    transform: scale(1.3);
+}
