@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/sweetalert2.all.min.js" defer></script>
     <title>RN psycosomatics</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
                 <div class="col-4 d-flex align-items-center">
                     <ul class="nav justify-content-end">
                         <li class="nav-item menu_item">
-                            <a class="nav-link active me-2" aria-current="page" href="#">Вебінари</a>
+                            <a class="nav-link me-2" href="#vebinars">Вебінари</a>
                         </li>
                         <li class="nav-item menu_item me-2">
                             <a class="nav-link" href="#">Про мене</a>
@@ -45,7 +46,52 @@
             </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <section class="vebinars" id="vebinars">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title">Вебінари</h2>
+                    </div>
+                </div>
+                <div class="row mt-5 d-flex justify-content-evenly">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="card mt-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Консультація</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quod obcaecati porro natus. Quae quis ullam sequi blanditiis ut, magnam odit architecto eveniet voluptatibus accusamus.</p>
+                                <a href="#" class="btn">Записатись</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card mt-4 active__card">
+                            <div class="card-body">
+                                <h5 class="card-title">Гіпнотерапія індивідуально</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quod obcaecati porro natus. Quae quis ullam sequi blanditiis ut, magnam odit architecto eveniet voluptatibus accusamus.</p>
+                                <a href="#" class="btn active__btn">Записатись</a>
+                            </div>
+                        </div>
+                        <div class="active__banner">
+                            <p>популярно зараз</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="card mt-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Тета-хілінг індивідуальне</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quod obcaecati porro natus. Quae quis ullam sequi blanditiis ut, magnam odit architecto eveniet voluptatibus accusamus.</p>
+                                <a href="#" class="btn">Записатись</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about__me"></section>
+        <section class="certificates"></section>
+        <section class="reviews"></section>
+    </main>
     <footer></footer>
 </body>
 </html>
