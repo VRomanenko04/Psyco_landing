@@ -38,7 +38,7 @@ header {
     width: 48px;
 }
 
-.social__item:hover {
+.social__scale:hover {
     transform: scale(1.3);
 }
 
@@ -114,4 +114,14 @@ section {
 .active__banner p {
     font-size: 14px;
     font-weight: 300;
+}
+
+.popup__btn {
+    border-radius: 40px !important;
+    padding: 10px 20px;
+    font-weight: 300;
+}
+
+.popup__container {
+    border-radius: 25px !important;
 }
