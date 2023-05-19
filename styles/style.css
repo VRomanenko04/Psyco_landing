@@ -94,7 +94,7 @@ header {
 }
 
 .active__btn:hover {
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
 .active__banner {
@@ -103,6 +103,7 @@ header {
     width: 200px;
     height: 26px;
     margin-left: 100px;
+    margin-top: 10px;
     border-radius: 0 0 10px 10px;
     color: #ffffff;
 }
@@ -132,4 +133,33 @@ header {
 .text {
     margin-top: 70px;
     font-size: 30px;
+}
+
+.certificates {
+    background-color: #fafafa;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    height: 750px;
+}
+
+.carousel {
+    width: 800px;
+}
+
+.carousel-item img {
+    height: 550px;
+}
+
+
+footer {
+    height: 100px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 40px;
 }
