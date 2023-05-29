@@ -125,6 +125,26 @@ header {
     font-weight: 300;
 }
 
+.info__btn1,
+.info__btn2,
+.info__btn3 {
+    background-color: #fafafa;
+    border: none;
+}
+
+.info__btn1 svg,
+.info__btn2 svg,
+.info__btn3 svg {
+    height: 32px;
+    width: 32px;
+}
+
+.info__btn1:hover svg,
+.info__btn2:hover svg,
+.info__btn3:hover svg {
+    fill: #79afff;
+}
+
 /* POPUP_WINDOW */
 .popup__btn {
     border-radius: 40px !important;
